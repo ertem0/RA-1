@@ -1,0 +1,1 @@
+to start the program run main.py in a python interpreter
