@@ -4,11 +4,10 @@ import numpy as np
 from scipy.stats import norm
 from math import comb
 from time import time
-from scipy.interpolate import interp1d
 
 start = time()
-n = 1000  # Number of levels
-N = 10  # Number of balls
+n = 10  # Number of levels
+N = 100  # Number of balls
 
 def drop_ball(n):
     pos = [0, 0]
